@@ -1,0 +1,21 @@
+{
+  "name": "bazi-paipan",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "八字排盘 · 四柱推命工具（Vue 3 + Vite 版）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:core": "node scripts/verify-core.mjs"
+  },
+  "dependencies": {
+    "lunar-javascript": "^1.7.7",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  }
+}
